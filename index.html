@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+    <title>Evan Chan — Accessibility Research Project</title>
+</head>
+
+<body>
+    <main id="app" class="container">
+        <h1>Accessibility Research Project</h1>
+        <p>Please refer to my <a
+                href="https://docs.google.com/document/d/1Oe7rgRu3ifNRMT_tL0zM28q335UtKmiH0lKbAc5tEP8/edit?usp=sharing">Design/Develop
+                Roadmap</a> for more details on this project </p>
+        <div id="description">
+            <h3>Overall Description</h3>
+            <ul>
+                <li>Simple interface design with organized and thoughtful layout</li>
+                <li>Using "alt" and "title" attribute for images/videos elements</li>
+                <li>Sematic tagging for TAB navigation</li>
+                <li>Additional functions for videos such as providing CC, Transcripts or Subtitles in video controls
+                </li>
+                <li>Provide visual elements, extra indicators to improve users navigating experience</li>
+                <li>Suggesting indicators and call-to-action elements where fits</li>
+            </ul>
+        </div>
+        <section id="video">
+            <h2>Video/TV Show Concept</h2>
+            <h4>Turn on Captions for Subtitles in Video Settings</h4>
+            <h4>You are watching:</h4>
+            <transition name="slide" mode="out-in">
+                <router-view></router-view>
+            </transition>
+        </section>
+        <section id="audio">
+            <div class="audioArea">
+                <h2>Fever - Peggy Lee</h2>
+                <img src="images/fever_thumbnail.jpg" alt="Fever">
+                <audio controls>
+                    <source src="images/fever.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <article class="lyricsBox">
+                Never know how much I love you<br>
+                Never know how much I care<br>
+                When you put your arms around me<br>
+                I get a fever that's so hard to bear<br>
+                You give me fever,<br>
+                When you kiss me<br>
+                Fever when you hold me tight<br>
+                Fever<br>
+                In the mornin', a fever all through the night<br>
+                Sun lights up the day time<br>
+                Moon lights up the night<br>
+                I light up when you call my name<br>
+                And you know I'm gonna treat you right<br>
+                You give me fever,<br>
+                When you kiss me<br>
+                Fever when you hold me tight<br>
+                Fever<br>
+                In the mornin'<br>
+                A fever all through the night<br>
+                Everybody's got the fever<br>
+                That is somethin' you all know<br>
+                Fever isn't such a new thing<br>
+                Fever started a long ago<br>
+                Romeo loved Juliet<br>
+                Juliet she felt the same<br>
+                When he put his arms around her<br>
+                He said, "Julie baby you're my flame"<br>
+                Thou givest fever<br>
+                When we kisseth<br>
+                Fever with thy flaming youth<br>
+                Fever…<br>
+            </article>
+        </section>
+    </main>
+    <script src=" https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

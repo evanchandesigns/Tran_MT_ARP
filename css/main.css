@@ -1,0 +1,118 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+section {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, a, span, button, .nextButton {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 700 ;
+    text-align: center;
+}
+
+p, ul, li, article {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400 ;
+}
+
+.buttonsArea{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nextButton {
+    padding: 10px;
+    background: #1e1e1e;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px;
+    max-width: 200px;
+}
+
+.nextButton:hover{
+    background: #fff;
+    color: #1e1e1e;
+    border: 1px solid #1e1e1e;
+}
+
+#description {
+    margin-top: 10vh;
+}
+
+.slide-enter-active,
+.slide-leave-actice{
+    transition: opacity 1s, transform 1s;
+}
+
+.slide-enter,
+.slide-leave-to {
+    opacity: 0;
+    transform:translateX(-20%);
+}
+
+.videoArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.transcriptBox, .lyricsBox {
+    background: #1e1e1e;
+    color: #fff;
+    max-width: 500px;
+    padding: 30px;
+    align-self: center;
+    margin-top: 30px;
+}
+
+#audio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.audioArea{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.audioArea h2 {
+    align-self: flex-start;
+}
+
+.audioArea img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    padding-right: 50px;
+}
+
+.audioArea audio {
+    margin-top: 30px;
+    background-color: #1e1e1e;
+    padding: 10px 5px 10px 5px;
+    border-radius: 8px;
+}
