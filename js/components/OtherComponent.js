@@ -25,44 +25,46 @@ export default {
             </div>
             <div class="transcriptBox" v-if="showTranscript">
                 <article class="lyricsBox">
-                NICOLE<br>
-                You’re being so much like your
-                father.<br>
+                    CLEMENTINE<br>
+                    How far are you going? On the train, I
+                    mean, of course. Not in life.<br>
 
-                CHARLIE<br>
-                DO NOT compare me to my father.<br>
+                    JOEL<br>
+                    Rockville Center.<br>
 
-                NICOLE<br>
-                I didn’t compare you. I said you
-                were acting like him.
-                120.<br>
+                    CLEMENTINE<br>
+                    Get out! Me too! What are the odds?<br>
+                    Do I know you?<br>
 
-                CHARLIE<br>
-                You’re exactly like your mother!
-                Everything you complain about her,
-                you’re doing. You’re suffocating
-                Henry.<br>
+                    JOEL<br>
+                    I don't think so.<br>
 
-                NICOLE<br>
-                First of all, I love my
-                mother, she was a great
-                mother!<br>
+                    CLEMENTINE<br>
+                    Hmmmm. Do you ever shop at Barnes and
+                    Noble?<br>
 
-                CHARLIE<br>
-                I’m just repeating what
-                you’ve told me--<br>
+                    JOEL<br>
+                    Sure.<br>
 
-                NICOLE<br>
-                Secondly, how dare you compare my
-                mothering to my mother? I might
-                be like my father, but I’m NOT
-                like my mother.<br>
+                    CLEMENTINE<br>
+                    That's it. That's me: book slave there
+                    for, like, five years now. I thought I'd
+                    seen you somewhere.<br>
 
-                CHARLIE<br>
-                You ARE! And you’re like my
-                father. You’re also like MY
-                mother. You’re all the bad things
-                about all of these people.<br>
+                    JOEL<br>
+                    Really? Because --<br>
+
+                    CLEMENTINE<br>
+                    Jesus, is it five years? I gotta quit
+                    right now.<br>
+
+                    JOEL<br>
+                    -- I go there all the time. I think I'd
+                    remember you.<br>
+
+                    CLEMENTINE<br>
+                    Well, I'm there. I've seen you, man.<br>
+                    Might be the hair.<br>
                 </article>
             </div>
         </div>
